@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6726DB8A1D3E194B00AEADEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6726DB891D3E194B00AEADEA /* main.m */; };
+		6726DB8D1D3E194B00AEADEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6726DB8C1D3E194B00AEADEA /* AppDelegate.m */; };
+		6726DB901D3E194B00AEADEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6726DB8F1D3E194B00AEADEA /* ViewController.m */; };
+		6726DB931D3E194B00AEADEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6726DB911D3E194B00AEADEA /* Main.storyboard */; };
+		6726DB951D3E194B00AEADEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6726DB941D3E194B00AEADEA /* Assets.xcassets */; };
+		6726DB981D3E194B00AEADEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6726DB961D3E194B00AEADEA /* LaunchScreen.storyboard */; };
+		6726DBA31D3E194B00AEADEA /* ZXTextFieldAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6726DBA21D3E194B00AEADEA /* ZXTextFieldAnimationTests.m */; };
+		6726DBAE1D3E194B00AEADEA /* ZXTextFieldAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6726DBAD1D3E194B00AEADEA /* ZXTextFieldAnimationUITests.m */; };
+		6726DBBE1D3E199C00AEADEA /* ZXTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6726DBBD1D3E199C00AEADEA /* ZXTextField.m */; };
+		6726DBC01D3E1B9200AEADEA /* dl_user.png in Resources */ = {isa = PBXBuildFile; fileRef = 6726DBBF1D3E1B9200AEADEA /* dl_user.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6726DB9F1D3E194B00AEADEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6726DB7D1D3E194B00AEADEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6726DB841D3E194B00AEADEA;
+			remoteInfo = ZXTextFieldAnimation;
+		};
+		6726DBAA1D3E194B00AEADEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6726DB7D1D3E194B00AEADEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6726DB841D3E194B00AEADEA;
+			remoteInfo = ZXTextFieldAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6726DB851D3E194B00AEADEA /* ZXTextFieldAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXTextFieldAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6726DB891D3E194B00AEADEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6726DB8B1D3E194B00AEADEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6726DB8C1D3E194B00AEADEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6726DB8E1D3E194B00AEADEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6726DB8F1D3E194B00AEADEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6726DB921D3E194B00AEADEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6726DB941D3E194B00AEADEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6726DB971D3E194B00AEADEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6726DB991D3E194B00AEADEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6726DB9E1D3E194B00AEADEA /* ZXTextFieldAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXTextFieldAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6726DBA21D3E194B00AEADEA /* ZXTextFieldAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXTextFieldAnimationTests.m; sourceTree = "<group>"; };
+		6726DBA41D3E194B00AEADEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6726DBA91D3E194B00AEADEA /* ZXTextFieldAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXTextFieldAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6726DBAD1D3E194B00AEADEA /* ZXTextFieldAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXTextFieldAnimationUITests.m; sourceTree = "<group>"; };
+		6726DBAF1D3E194B00AEADEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6726DBBC1D3E199C00AEADEA /* ZXTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXTextField.h; sourceTree = "<group>"; };
+		6726DBBD1D3E199C00AEADEA /* ZXTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXTextField.m; sourceTree = "<group>"; };
+		6726DBBF1D3E1B9200AEADEA /* dl_user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dl_user.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6726DB821D3E194B00AEADEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6726DB9B1D3E194B00AEADEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6726DBA61D3E194B00AEADEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6726DB7C1D3E194B00AEADEA = {
+			isa = PBXGroup;
+			children = (
+				6726DB871D3E194B00AEADEA /* ZXTextFieldAnimation */,
+				6726DBA11D3E194B00AEADEA /* ZXTextFieldAnimationTests */,
+				6726DBAC1D3E194B00AEADEA /* ZXTextFieldAnimationUITests */,
+				6726DB861D3E194B00AEADEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6726DB861D3E194B00AEADEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6726DB851D3E194B00AEADEA /* ZXTextFieldAnimation.app */,
+				6726DB9E1D3E194B00AEADEA /* ZXTextFieldAnimationTests.xctest */,
+				6726DBA91D3E194B00AEADEA /* ZXTextFieldAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6726DB871D3E194B00AEADEA /* ZXTextFieldAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				6726DBBB1D3E199400AEADEA /* ZXTextField */,
+				6726DB8B1D3E194B00AEADEA /* AppDelegate.h */,
+				6726DB8C1D3E194B00AEADEA /* AppDelegate.m */,
+				6726DB8E1D3E194B00AEADEA /* ViewController.h */,
+				6726DB8F1D3E194B00AEADEA /* ViewController.m */,
+				6726DB911D3E194B00AEADEA /* Main.storyboard */,
+				6726DB941D3E194B00AEADEA /* Assets.xcassets */,
+				6726DB961D3E194B00AEADEA /* LaunchScreen.storyboard */,
+				6726DB991D3E194B00AEADEA /* Info.plist */,
+				6726DB881D3E194B00AEADEA /* Supporting Files */,
+			);
+			path = ZXTextFieldAnimation;
+			sourceTree = "<group>";
+		};
+		6726DB881D3E194B00AEADEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6726DB891D3E194B00AEADEA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6726DBA11D3E194B00AEADEA /* ZXTextFieldAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				6726DBA21D3E194B00AEADEA /* ZXTextFieldAnimationTests.m */,
+				6726DBA41D3E194B00AEADEA /* Info.plist */,
+			);
+			path = ZXTextFieldAnimationTests;
+			sourceTree = "<group>";
+		};
+		6726DBAC1D3E194B00AEADEA /* ZXTextFieldAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6726DBAD1D3E194B00AEADEA /* ZXTextFieldAnimationUITests.m */,
+				6726DBAF1D3E194B00AEADEA /* Info.plist */,
+			);
+			path = ZXTextFieldAnimationUITests;
+			sourceTree = "<group>";
+		};
+		6726DBBB1D3E199400AEADEA /* ZXTextField */ = {
+			isa = PBXGroup;
+			children = (
+				6726DBBC1D3E199C00AEADEA /* ZXTextField.h */,
+				6726DBBD1D3E199C00AEADEA /* ZXTextField.m */,
+				6726DBBF1D3E1B9200AEADEA /* dl_user.png */,
+			);
+			path = ZXTextField;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6726DB841D3E194B00AEADEA /* ZXTextFieldAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6726DBB21D3E194B00AEADEA /* Build configuration list for PBXNativeTarget "ZXTextFieldAnimation" */;
+			buildPhases = (
+				6726DB811D3E194B00AEADEA /* Sources */,
+				6726DB821D3E194B00AEADEA /* Frameworks */,
+				6726DB831D3E194B00AEADEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZXTextFieldAnimation;
+			productName = ZXTextFieldAnimation;
+			productReference = 6726DB851D3E194B00AEADEA /* ZXTextFieldAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6726DB9D1D3E194B00AEADEA /* ZXTextFieldAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6726DBB51D3E194B00AEADEA /* Build configuration list for PBXNativeTarget "ZXTextFieldAnimationTests" */;
+			buildPhases = (
+				6726DB9A1D3E194B00AEADEA /* Sources */,
+				6726DB9B1D3E194B00AEADEA /* Frameworks */,
+				6726DB9C1D3E194B00AEADEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6726DBA01D3E194B00AEADEA /* PBXTargetDependency */,
+			);
+			name = ZXTextFieldAnimationTests;
+			productName = ZXTextFieldAnimationTests;
+			productReference = 6726DB9E1D3E194B00AEADEA /* ZXTextFieldAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6726DBA81D3E194B00AEADEA /* ZXTextFieldAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6726DBB81D3E194B00AEADEA /* Build configuration list for PBXNativeTarget "ZXTextFieldAnimationUITests" */;
+			buildPhases = (
+				6726DBA51D3E194B00AEADEA /* Sources */,
+				6726DBA61D3E194B00AEADEA /* Frameworks */,
+				6726DBA71D3E194B00AEADEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6726DBAB1D3E194B00AEADEA /* PBXTargetDependency */,
+			);
+			name = ZXTextFieldAnimationUITests;
+			productName = ZXTextFieldAnimationUITests;
+			productReference = 6726DBA91D3E194B00AEADEA /* ZXTextFieldAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6726DB7D1D3E194B00AEADEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zhangxin;
+				TargetAttributes = {
+					6726DB841D3E194B00AEADEA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					6726DB9D1D3E194B00AEADEA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6726DB841D3E194B00AEADEA;
+					};
+					6726DBA81D3E194B00AEADEA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6726DB841D3E194B00AEADEA;
+					};
+				};
+			};
+			buildConfigurationList = 6726DB801D3E194B00AEADEA /* Build configuration list for PBXProject "ZXTextFieldAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6726DB7C1D3E194B00AEADEA;
+			productRefGroup = 6726DB861D3E194B00AEADEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6726DB841D3E194B00AEADEA /* ZXTextFieldAnimation */,
+				6726DB9D1D3E194B00AEADEA /* ZXTextFieldAnimationTests */,
+				6726DBA81D3E194B00AEADEA /* ZXTextFieldAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6726DB831D3E194B00AEADEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6726DBC01D3E1B9200AEADEA /* dl_user.png in Resources */,
+				6726DB981D3E194B00AEADEA /* LaunchScreen.storyboard in Resources */,
+				6726DB951D3E194B00AEADEA /* Assets.xcassets in Resources */,
+				6726DB931D3E194B00AEADEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6726DB9C1D3E194B00AEADEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6726DBA71D3E194B00AEADEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6726DB811D3E194B00AEADEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6726DBBE1D3E199C00AEADEA /* ZXTextField.m in Sources */,
+				6726DB901D3E194B00AEADEA /* ViewController.m in Sources */,
+				6726DB8D1D3E194B00AEADEA /* AppDelegate.m in Sources */,
+				6726DB8A1D3E194B00AEADEA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6726DB9A1D3E194B00AEADEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6726DBA31D3E194B00AEADEA /* ZXTextFieldAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6726DBA51D3E194B00AEADEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6726DBAE1D3E194B00AEADEA /* ZXTextFieldAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6726DBA01D3E194B00AEADEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6726DB841D3E194B00AEADEA /* ZXTextFieldAnimation */;
+			targetProxy = 6726DB9F1D3E194B00AEADEA /* PBXContainerItemProxy */;
+		};
+		6726DBAB1D3E194B00AEADEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6726DB841D3E194B00AEADEA /* ZXTextFieldAnimation */;
+			targetProxy = 6726DBAA1D3E194B00AEADEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6726DB911D3E194B00AEADEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6726DB921D3E194B00AEADEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6726DB961D3E194B00AEADEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6726DB971D3E194B00AEADEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6726DBB01D3E194B00AEADEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6726DBB11D3E194B00AEADEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6726DBB31D3E194B00AEADEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZXTextFieldAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuxin.ZXTextFieldAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6726DBB41D3E194B00AEADEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZXTextFieldAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuxin.ZXTextFieldAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6726DBB61D3E194B00AEADEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZXTextFieldAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuxin.ZXTextFieldAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZXTextFieldAnimation.app/ZXTextFieldAnimation";
+			};
+			name = Debug;
+		};
+		6726DBB71D3E194B00AEADEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZXTextFieldAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuxin.ZXTextFieldAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZXTextFieldAnimation.app/ZXTextFieldAnimation";
+			};
+			name = Release;
+		};
+		6726DBB91D3E194B00AEADEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZXTextFieldAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuxin.ZXTextFieldAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZXTextFieldAnimation;
+			};
+			name = Debug;
+		};
+		6726DBBA1D3E194B00AEADEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZXTextFieldAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuxin.ZXTextFieldAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZXTextFieldAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6726DB801D3E194B00AEADEA /* Build configuration list for PBXProject "ZXTextFieldAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6726DBB01D3E194B00AEADEA /* Debug */,
+				6726DBB11D3E194B00AEADEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6726DBB21D3E194B00AEADEA /* Build configuration list for PBXNativeTarget "ZXTextFieldAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6726DBB31D3E194B00AEADEA /* Debug */,
+				6726DBB41D3E194B00AEADEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6726DBB51D3E194B00AEADEA /* Build configuration list for PBXNativeTarget "ZXTextFieldAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6726DBB61D3E194B00AEADEA /* Debug */,
+				6726DBB71D3E194B00AEADEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6726DBB81D3E194B00AEADEA /* Build configuration list for PBXNativeTarget "ZXTextFieldAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6726DBB91D3E194B00AEADEA /* Debug */,
+				6726DBBA1D3E194B00AEADEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6726DB7D1D3E194B00AEADEA /* Project object */;
+}
